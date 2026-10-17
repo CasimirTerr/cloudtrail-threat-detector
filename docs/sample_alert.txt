@@ -1,0 +1,16 @@
+Subject: [HIGH] Security group opened to the internet
+
+HIGH: Security group opened to the internet
+
+Security group sg-0a1b2c3d4e5f67890 now allows SSH (22) from anywhere (0.0.0.0/0).
+
+Who:        user/jsmith
+Action:     AuthorizeSecurityGroupIngress
+Source IP:  203.0.113.45
+Region:     us-east-1
+Account:    123456789012
+Time:       2026-10-17T21:14:03Z
+MITRE:      T1562.007  https://attack.mitre.org/techniques/T1562/007/
+group_id: sg-0a1b2c3d4e5f67890
+
+Rule: SG_OPEN_TO_WORLD

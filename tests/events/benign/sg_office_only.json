@@ -1,0 +1,40 @@
+{
+  "eventVersion": "1.09",
+  "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDAEXAMPLECASIMI",
+    "arn": "arn:aws:iam::123456789012:user/casimir",
+    "accountId": "123456789012",
+    "userName": "casimir"
+  },
+  "eventTime": "2026-10-17T21:14:03Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "AuthorizeSecurityGroupIngress",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "203.0.113.45",
+  "userAgent": "aws-cli/2.17.0",
+  "requestParameters": {
+    "groupId": "sg-0123",
+    "ipPermissions": {
+      "items": [
+        {
+          "ipProtocol": "tcp",
+          "fromPort": 22,
+          "toPort": 22,
+          "ipRanges": {
+            "items": [
+              {
+                "cidrIp": "198.51.100.10/32"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "responseElements": null,
+  "eventID": "e7c1f6a2-0000-4000-8000-c74c6ee5bc82",
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "123456789012"
+}

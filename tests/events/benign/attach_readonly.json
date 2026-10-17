@@ -1,0 +1,25 @@
+{
+  "eventVersion": "1.09",
+  "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDAEXAMPLECASIMI",
+    "arn": "arn:aws:iam::123456789012:user/casimir",
+    "accountId": "123456789012",
+    "userName": "casimir"
+  },
+  "eventTime": "2026-10-17T21:14:03Z",
+  "eventSource": "iam.amazonaws.com",
+  "eventName": "AttachUserPolicy",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "203.0.113.45",
+  "userAgent": "aws-cli/2.17.0",
+  "requestParameters": {
+    "userName": "auditor",
+    "policyArn": "arn:aws:iam::aws:policy/SecurityAudit"
+  },
+  "responseElements": null,
+  "eventID": "e7c1f6a2-0000-4000-8000-7aa4458600b2",
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "123456789012"
+}

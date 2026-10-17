@@ -1,0 +1,40 @@
+{
+  "eventVersion": "1.09",
+  "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDAEXAMPLEJSMITH",
+    "arn": "arn:aws:iam::123456789012:user/jsmith",
+    "accountId": "123456789012",
+    "userName": "jsmith"
+  },
+  "eventTime": "2026-10-17T21:14:03Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "AuthorizeSecurityGroupIngress",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "203.0.113.45",
+  "userAgent": "aws-cli/2.17.0",
+  "requestParameters": {
+    "groupId": "sg-0a1b2c3d4e5f67890",
+    "ipPermissions": {
+      "items": [
+        {
+          "ipProtocol": "tcp",
+          "fromPort": 22,
+          "toPort": 22,
+          "ipRanges": {
+            "items": [
+              {
+                "cidrIp": "0.0.0.0/0"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "responseElements": null,
+  "eventID": "e7c1f6a2-0000-4000-8000-c93e5ed88fbf",
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "123456789012"
+}

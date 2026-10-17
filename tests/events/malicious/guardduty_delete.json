@@ -1,0 +1,24 @@
+{
+  "eventVersion": "1.09",
+  "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDAEXAMPLEDEPLOY",
+    "arn": "arn:aws:iam::123456789012:user/deploy-bot",
+    "accountId": "123456789012",
+    "userName": "deploy-bot"
+  },
+  "eventTime": "2026-10-17T21:14:03Z",
+  "eventSource": "guardduty.amazonaws.com",
+  "eventName": "DeleteDetector",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "203.0.113.45",
+  "userAgent": "aws-cli/2.17.0",
+  "requestParameters": {
+    "detectorId": "12abc34d567e8fa901bc2d34e56789f0"
+  },
+  "responseElements": null,
+  "eventID": "e7c1f6a2-0000-4000-8000-b4e86b73ba37",
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "123456789012"
+}

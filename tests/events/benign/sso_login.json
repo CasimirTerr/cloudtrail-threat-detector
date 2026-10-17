@@ -1,0 +1,25 @@
+{
+  "eventVersion": "1.09",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:sts::123456789012:assumed-role/AWSReservedSSO_Admin/casimir",
+    "accountId": "123456789012"
+  },
+  "eventTime": "2026-10-17T21:14:03Z",
+  "eventSource": "signin.amazonaws.com",
+  "eventName": "ConsoleLogin",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "203.0.113.45",
+  "userAgent": "aws-cli/2.17.0",
+  "requestParameters": null,
+  "responseElements": {
+    "ConsoleLogin": "Success"
+  },
+  "eventID": "e7c1f6a2-0000-4000-8000-1cb9890f6cf1",
+  "eventType": "AwsConsoleSignIn",
+  "managementEvent": true,
+  "recipientAccountId": "123456789012",
+  "additionalEventData": {
+    "MFAUsed": "No"
+  }
+}
